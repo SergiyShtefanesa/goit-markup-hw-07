@@ -1,0 +1,64 @@
+.containbtn {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+  color: var(--light-color);
+  background-color: var(--accent-color);
+  font-weight: var(--bolt-font);
+  font-size: var(--secondary-font-size);
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: var(--transition-dur-and-fun-bacol);
+}
+
+.menu-link.current {
+  color: var(--accent-color);}
+  
+.containbtn:hover,
+.containbtn:focus {
+  background-color: var(--accent-color-hover);
+}
+
+.button {
+  font-family: inherit;
+  border: 1px solid transparent;
+  transition: var(--transition-dur-and-fun), var(--transition-dur-and-fun-bacol), box-shadow var(--transition-dur-and-fun-portfol);
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter .filter-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.filter-button {
+  padding: 6px 22px;
+  border-radius: 4px;
+
+  color: var(--primery-color);
+  background-color: var(--backgound-gray-color);
+  font-family: var(--primery-font);
+  font-weight: var(--medium-font);
+  font-size: var(--secondary-font-size);
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--light-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}

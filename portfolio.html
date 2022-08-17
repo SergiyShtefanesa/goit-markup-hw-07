@@ -16,6 +16,7 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
 		/>
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/maim.min.css" />
 	</head>
 	<body>
 		<!--header-->
@@ -60,12 +61,22 @@
 				<div class="container">
 					<h1 class="visually-hidden">Наши работы</h1>
 					<!-- Надо будет скрыть этот элемент "h1"! -->
-					<ul class="filter no-markers">
-						<li class="filter-item"><button type="button" class="filter-button button">Все</button></li>
-						<li class="filter-item"><button type="button" class="filter-button button">Веб-сайты</button></li>
-						<li class="filter-item"><button type="button" class="filter-button button">Приложения</button></li>
-						<li class="filter-item"><button type="button" class="filter-button button">Дизайн</button></li>
-						<li class="filter-item"><button type="button" class="filter-button button">Маркетинг</button></li>
+					<ul class="filter">
+						<li class="filter-item">
+							<button type="button" class="filter-button button">Все</button>
+						</li>
+						<li class="filter-item">
+							<button type="button" class="filter-button button">Веб-сайты</button>
+						</li>
+						<li class="filter-item">
+							<button type="button" class="filter-button button">Приложения</button>
+						</li>
+						<li class="filter-item">
+							<button type="button" class="filter-button button">Дизайн</button>
+						</li>
+						<li class="filter-item">
+							<button type="button" class="filter-button button">Маркетинг</button>
+						</li>
 					</ul>
 					<ul class="card-set no-markers">
 						<li class="card-set-item">
@@ -258,7 +269,7 @@
 				<div class="contact-group">
 					<a class="logo-footer" href="./index.html"><span class="accent">Web</span>Studio</a>
 					<address>
-						<ul class="contacts no-markers">
+						<ul class="contacts ">
 							<li class="contacts-footer"
 								><a
 									class="find-us"
@@ -309,7 +320,7 @@
 				<div class="footer-form-input">
 					<p class="join-text">Подпишитесь на рассылку</p>
 					<input class="input-email" type="email" name="email" placeholder="E-mail" />
-					<button class="button contained subscribe" type="submit">
+					<button class="button containbtn subscribe" type="submit">
 						Подписаться
 						<svg class="subscribe-send-icon" width="24px" height="24px">
 							<use href="./images/sprite/sprite.svg#Telegram"></use>
