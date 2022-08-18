@@ -366,7 +366,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--light-color);
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -994,7 +994,7 @@ button {
 }
 
 .find-us {
-  color: #ffffff;
+  color: var(--light-color);
   font-style: normal;
   font-weight: var(--normal-font);
   font-size: var(--primary-font-size);
@@ -1020,7 +1020,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--light-color);
   margin-top: 0;
   margin-bottom: 20px;
 }
