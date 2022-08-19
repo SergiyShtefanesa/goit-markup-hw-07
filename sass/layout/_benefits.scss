@@ -56,14 +56,14 @@
 
 .services-content {
   display: flex;
-}
 
-.services-content .services-image:not(:last-child) {
-  margin-right: 30px;
-}
+  &.services-image:not(:last-child) {
+    margin-right: 30px;
+  }
 
-.services-image {
-  position: relative;
+  .services-image {
+    position: relative;
+  }
 }
 
 .wor-stail {
@@ -90,7 +90,8 @@
   color: var(--light-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}.benefits-content {
+}
+.benefits-content {
   display: flex;
 }
 
@@ -148,11 +149,12 @@
 
 .services-content {
   display: flex;
+  .services-image:not(:last-child) {
+      margin-right: 30px;
+    }
 }
 
-.services-content .services-image:not(:last-child) {
-  margin-right: 30px;
-}
+
 
 .services-image {
   position: relative;
