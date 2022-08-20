@@ -1,18 +1,18 @@
-.contact-icon {
+.contact__icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.contact-icon:hover,
-.contact-icon:focus {
+.contact__icon:hover,
+.contact__icon:focus {
   fill: currentColor;
 }
 
-.connection .connection-link+.connection-link {
+.connection .connection__link+.connection__link {
   margin-left: 50px;
 }
 
-.contact-us {
+.contact__us {
   display: flex;
   align-items: center;
   color: var(--secondary-color);
@@ -23,8 +23,8 @@
   transition: var(--transition-dur-and-fun);
 }
 
-.contact-us:hover,
-.contact-us:focus {
+.contact__us:hover,
+.contact__us:focus {
   color: var(--accent-color);
 }
 
@@ -38,9 +38,7 @@
   margin-top: 0;
 }
 
-.no-markers .contacts-footer:not(:last-child) {
-  margin-bottom: 9px;
-}
+
 
 .contact-group {
   flex-grow: calc(1);
