@@ -95,7 +95,7 @@ button {
   transition: var(--transition-dur-and-fun-bacol);
 }
 
-.menu-link.current {
+.menu__link.current {
   color: var(--accent-color);
 }
 
@@ -137,21 +137,21 @@ button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.contact-icon {
+.contact__icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.contact-icon:hover,
-.contact-icon:focus {
+.contact__icon:hover,
+.contact__icon:focus {
   fill: currentColor;
 }
 
-.connection .connection-link + .connection-link {
+.connection .connection__link + .connection__link {
   margin-left: 50px;
 }
 
-.contact-us {
+.contact__us {
   display: flex;
   align-items: center;
   color: var(--secondary-color);
@@ -162,8 +162,8 @@ button {
   transition: var(--transition-dur-and-fun);
 }
 
-.contact-us:hover,
-.contact-us:focus {
+.contact__us:hover,
+.contact__us:focus {
   color: var(--accent-color);
 }
 
@@ -174,10 +174,6 @@ button {
 .contacts-footer {
   display: block;
   margin-top: 0;
-}
-
-.no-markers .contacts-footer:not(:last-child) {
-  margin-bottom: 9px;
 }
 
 .contact-group {
@@ -260,7 +256,7 @@ button {
   fill: currentColor;
 }
 
-.gray-background {
+.team__background {
   background-color: var(--backgound-gray-color);
 }
 
@@ -422,7 +418,7 @@ button {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.card-content {
+.card-header {
   padding: 20px 24px;
   border-bottom: var(--image-border);
   border-right: var(--image-border);
@@ -694,7 +690,7 @@ button {
   background-color: var(--accent-color-hover);
 }
 
-.content {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -702,11 +698,11 @@ button {
   display: flex;
   align-items: center;
 }
-.menu .menu-list {
+.menu .menu__list {
   display: flex;
 }
 
-.menu-list .menu-item:not(:last-child) {
+.menu__list .menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -714,7 +710,7 @@ button {
   color: var(--accent-color);
 }
 
-.menu-item {
+.menu__item {
   position: relative;
 }
 
@@ -722,7 +718,7 @@ button {
   color: var(--accent-color);
 }
 
-.menu-link {
+.menu__link {
   display: block;
   position: relative;
   color: var(--primery-color);
@@ -748,8 +744,8 @@ button {
   background-color: var(--accent-color);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu__link:hover,
+.menu__link:focus {
   color: var(--accent-color);
 }
 
@@ -794,15 +790,15 @@ button {
   text-transform: uppercase;
 }
 
-.benefits-content {
+.benefits-header {
   display: flex;
 }
 
-.benefits-item:not(:last-child) {
+.benefits__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.benefits-icon-container {
+.benefits__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -837,7 +833,7 @@ button {
   padding-top: 0;
 }
 
-.head-title {
+.head__title {
   margin-top: 0;
   margin-bottom: 50px;
   font-weight: var(--bolt-font);
@@ -847,17 +843,17 @@ button {
   letter-spacing: 0.03em;
 }
 
-.services-content {
+.services__header {
   display: flex;
 }
-.services-content.services-image:not(:last-child) {
+.services__header.services__image:not(:last-child) {
   margin-right: 30px;
 }
-.services-content .services-image {
+.services__header .services__image {
   position: relative;
 }
 
-.wor-stail {
+.services__stail {
   position: absolute;
   transform-origin: bottom center;
   bottom: 0;
@@ -866,7 +862,7 @@ button {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.web-work {
+.services__work {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -883,15 +879,15 @@ button {
   text-transform: uppercase;
 }
 
-.benefits-content {
+.benefits-header {
   display: flex;
 }
 
-.benefits-item:not(:last-child) {
+.benefits__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.benefits-icon-container {
+.benefits__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -926,7 +922,7 @@ button {
   padding-top: 0;
 }
 
-.head-title {
+.head__title {
   margin-top: 0;
   margin-bottom: 50px;
   font-weight: var(--bolt-font);
@@ -936,18 +932,18 @@ button {
   letter-spacing: 0.03em;
 }
 
-.services-content {
+.services__header {
   display: flex;
 }
-.services-content .services-image:not(:last-child) {
+.services__header .services__image:not(:last-child) {
   margin-right: 30px;
 }
 
-.services-image {
+.services__image {
   position: relative;
 }
 
-.wor-stail {
+.services__stail {
   position: absolute;
   transform-origin: bottom center;
   bottom: 0;
@@ -956,7 +952,7 @@ button {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.web-work {
+.services__work {
   display: flex;
   justify-content: center;
   align-items: center;

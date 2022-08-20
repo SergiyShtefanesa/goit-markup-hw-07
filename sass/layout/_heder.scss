@@ -1,18 +1,18 @@
-.content {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
 .menu {
   display: flex;
   align-items: center;
-  .menu-list {
+  .menu__list {
     display: flex;
   }
 }
 
 
 
-.menu-list .menu-item:not(:last-child) {
+.menu__list .menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -22,7 +22,7 @@
   color: var(--accent-color);
 }
 
-.menu-item {
+.menu__item {
   position: relative;
 }
 
@@ -30,7 +30,7 @@
   color: var(--accent-color);
 }
 
-.menu-link {
+.menu__link {
   display: block;
   position: relative;
   color: var(--primery-color);
@@ -56,8 +56,8 @@
   background-color: var(--accent-color);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu__link:hover,
+.menu__link:focus {
   color: var(--accent-color);
 }
 
