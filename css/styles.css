@@ -777,21 +777,11 @@ no-markers {
 	margin-bottom: 12px;
 }
 
-.modal-form-field {
+.modal_form-field {
 	margin-bottom: 20px;
 }
 
-/*------------------------//modal win---------------- */
-
-.modal-form-field {
-	margin-bottom: 20px;
-}
-
-.modal-form-field:last-child {
-	margin-bottom: 20px;
-}
-
-.modal-form-input-description {
+.modal_form-description {
 	display: block;
 	font-size: 12px;
 	line-height: 1.16;
@@ -800,12 +790,12 @@ no-markers {
 	margin-bottom: 4px;
 }
 
-.modal-form-input-wrapper {
+.modal_form-wrapper {
 	display: block;
 	position: relative;
 }
 
-.modal-form-input {
+.modal_form-input {
 	width: 100%;
 	height: 40px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
@@ -816,25 +806,26 @@ no-markers {
 	transition: border-color var(--transition-dur-and-fun-portfol);
 }
 
-.modal-form-input:focus {
+.modal_form-input:focus {
 	outline: none;
 	border-color: var(--accent-color);
 }
 
-.modal-form-input-icon {
+.modal_input-icon {
 	position: absolute;
 	top: 50%;
 	left: 12px;
 	fill: var(--primery-color);
 	transform: translateY(-50%);
 	transition: fill aar(--transition-dur-and-fun-portfol);
+
 }
 
-.modal-form-input:focus+.modal-form-input-icon {
+.modal_form-input:focus+.modal_input-icon {
 	fill: var(--accent-color);
 }
 
-.modal-form-message {
+.modal_form-message {
 	resize: none;
 	display: block;
 	width: 100%;
@@ -845,26 +836,26 @@ no-markers {
 	transition: border-color var(--transition-dur-and-fun-portfol);
 }
 
-.modal-form-message::placeholder {
+.modal_form-message::placeholder {
 	font-size: 12px;
 	line-height: 1.16;
 	letter-spacing: 0.01em;
 	color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-form-message:focus {
+.modal_form-message:focus {
 	outline: none;
 	border-color: var(--accent-color);
 }
 
-.modal-form-policy-link {
+.modal_form-link {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	text-decoration-line: underline;
 	color: var(--accent-color);
 }
 
-.modal-form-check-policy-description {
+.modal_description {
 	justify-content: center;
 	font-size: 14px;
 	line-height: 1.71;
@@ -875,8 +866,8 @@ no-markers {
 	margin-bottom: 30px;
 }
 
-.modal-form-check-policy-description::before {
-	content: "";
+.modal_description::before {
+	content: '';
 	display: block;
 	width: 16px;
 	height: 15px;
@@ -886,7 +877,7 @@ no-markers {
 	margin-right: 8px;
 }
 
-.modal-form-check-policy:checked+.modal-form-check-policy-description::before {
+.modal_check-policy:checked+.modal_description::before {
 	background-color: var(--accent-color);
 	border-color: var(--accent-color);
 	background-image: url(../images/iconcheck.svg);
@@ -894,11 +885,11 @@ no-markers {
 	background-size: 16px 15px;
 }
 
-.modal-form-check-policy:focus+.modal-form-check-policy-description::before {
+.modal_check-policy:focus+.modal_description::before {
 	outline: 1px solid var(--accent-color);
 }
 
-.modal-form-submit {
+.modal_form-submit {
 	align-self: center;
 	font-weight: 700;
 	font-size: 16px;
@@ -912,8 +903,8 @@ no-markers {
 	border: none;
 }
 
-.modal-form-submit:focus,
-.modal-form-submit:hover {
+.modal_form-submit:focus,
+.modal_form-submit:hover {
 	background-color: var(--accent-color-hover);
 }
 
@@ -931,7 +922,7 @@ no-markers {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	margin: -1px;
-  }
+}
 
 /*====================кнопки-фильтры====================*/
 
@@ -939,16 +930,16 @@ no-markers {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
-  }
-  
-  .filter__list .filter__item:not(:last-child) {
+}
+
+.filter__list .filter__item:not(:last-child) {
 	margin-right: 8px;
-  }
-  
-  .filter__button {
+}
+
+.filter__button {
 	padding: 6px 22px;
 	border-radius: 4px;
-  
+
 	color: var(--primery-color);
 	background-color: var(--backgound-gray-color);
 	font-family: var(--primery-font);
@@ -958,16 +949,16 @@ no-markers {
 	text-align: center;
 	letter-spacing: 0.03em;
 	cursor: pointer;
-  }
-  
-  .filter__button:hover,
-  .filter__button:focus {
+}
+
+.filter__button:hover,
+.filter__button:focus {
 	color: var(--light-color);
 	background-color: var(--accent-color);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  }
-  
-  /*====================/кнопки-фильтры====================*/
+}
+
+/*====================/кнопки-фильтры====================*/
 
 /* -----------nav portf------------------------- */
 
@@ -1072,8 +1063,8 @@ no-markers {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(33,150,243,.9);
-	transform: translate(0,100%);
+	background: rgba(33, 150, 243, .9);
+	transform: translate(0, 100%);
 	transition: var(--transition-dur-and-fun-portfol);
 
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.863);
@@ -1085,22 +1076,22 @@ no-markers {
 }
 
 .card__text {
-   position: absolute;
-   width: 322px;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   margin-top: 0;
-   margin-bottom: 0;
-   font-weight: var(--normal-font);
-   font-size: 18px;
-   line-height: 1.56;
-   letter-spacing: .03em;
-   color: var(--light-color);
-   padding-top: 24px;
- 
+	position: absolute;
+	width: 322px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: var(--normal-font);
+	font-size: 18px;
+	line-height: 1.56;
+	letter-spacing: .03em;
+	color: var(--light-color);
+	padding-top: 24px;
+
 }
-	
+
 .card__title-project {
 	margin-top: 0;
 	margin-bottom: 4px;
