@@ -97,9 +97,7 @@ button {
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
-.button--contained:hover,
-.button--contained:focus {
+.button--contained:hover, .button--contained:focus {
   background-color: var(--accent-color-hover);
 }
 
@@ -153,41 +151,32 @@ button {
   margin-top: -30px;
   margin-left: -30px;
 }
-
 .card > .card__item {
   flex-basis: calc(33.3333333333% - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
-
 .card__link {
   display: block;
   text-decoration: none;
   color: var(--primery-color);
   transition: box-shadow var(--transition-dur-and-fun-portfol);
 }
-
-.card__link:hover,
-.card__link:focus {
+.card__link:hover, .card__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
-.card__link:hover .card__overlay,
-.card__link:focus .card__overlay {
+.card__link:hover .card__overlay, .card__link:focus .card__overlay {
   transform: translate(0, 0);
   transform: var(--transition-dur-and-fun-bacol);
 }
-
 .card__container {
   position: relative;
   overflow: hidden;
 }
-
 .card__image {
   margin-top: 0;
   margin-bottom: 0px;
 }
-
 .card__overlay {
   position: absolute;
   left: 0;
@@ -204,7 +193,6 @@ button {
   letter-spacing: 0.03em;
   padding: 24px;
 }
-
 .card__text {
   position: absolute;
   width: 322px;
@@ -220,7 +208,6 @@ button {
   color: var(--light-color);
   padding-top: 24px;
 }
-
 .card__title-project {
   margin-top: 0;
   margin-bottom: 4px;
@@ -229,7 +216,6 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
 .card__project-description {
   margin-top: 0;
   margin-bottom: 0;
@@ -239,7 +225,6 @@ button {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
-
 .card__content {
   padding: 20px 24px;
   border-bottom: var(--image-border);
@@ -267,7 +252,6 @@ button {
   width: 170px;
   height: 92px;
 }
-
 .client__item:not(:last-child) {
   margin-right: 30px;
 }
@@ -283,9 +267,7 @@ button {
   border-radius: 4px;
   transition: var(--transition-dur-and-fun);
 }
-
-.client__link:hover,
-.client__link:focus {
+.client__link:hover, .client__link:focus {
   color: var(--accent-color);
   border-color: currclient__link;
 }
@@ -310,9 +292,7 @@ button {
   text-decoration: none;
   transition: var(--transition-dur-and-fun);
 }
-
-.connection__link:hover,
-.connection__link:focus {
+.connection__link:hover, .connection__link:focus {
   color: var(--accent-color);
 }
 
@@ -320,9 +300,7 @@ button {
   fill: currentColor;
   margin-right: 10px;
 }
-
-.contact__icon:hover,
-.contact__icon:focus {
+.contact__icon:hover, .contact__icon:focus {
   fill: currentColor;
 }
 
@@ -335,7 +313,6 @@ button {
   justify-content: center;
   margin-bottom: 50px;
 }
-
 .filter__list .filter__item:not(:last-child) {
   margin-right: 8px;
 }
@@ -353,9 +330,7 @@ button {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
-
-.filter__button:hover,
-.filter__button:focus {
+.filter__button:hover, .filter__button:focus {
   color: var(--light-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -422,7 +397,6 @@ button {
 .contacts {
   display: inline-block;
 }
-
 .contacts .contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -442,9 +416,7 @@ button {
   text-decoration: none;
   transition: var(--transition-dur-and-fun);
 }
-
-.contacts__location:hover,
-.contacts__location:focus {
+.contacts__location:hover, .contacts__location:focus {
   color: var(--accent-color);
 }
 
@@ -458,9 +430,7 @@ button {
   text-decoration: none;
   transition: var(--transition-dur-and-fun);
 }
-
-.contacts__mail-tel:hover,
-.contacts__mail-tel:focus {
+.contacts__mail-tel:hover, .contacts__mail-tel:focus {
   color: var(--accent-color);
 }
 
@@ -502,9 +472,7 @@ button {
   border-radius: 50%;
   transition: var(--transition-dur-and-fun-bacol);
 }
-
-.links-list__link:hover,
-.links-list__link:focus {
+.links-list__link:hover, .links-list__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -627,7 +595,6 @@ button {
   padding-left: 42px;
   transition: border-color var(--transition-dur-and-fun-portfol);
 }
-
 .modal_form-input:focus {
   outline: none;
   border-color: var(--accent-color);
@@ -656,31 +623,27 @@ button {
   border-radius: 4px;
   transition: border-color var(--transition-dur-and-fun-portfol);
 }
-
+.modal_form-message:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
 .modal_form-message::-moz-placeholder {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal_form-message:-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal_form-message::placeholder {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-}
-
-.modal_form-message:focus {
-  outline: none;
-  border-color: var(--accent-color);
 }
 
 .modal_form-link {
@@ -701,7 +664,6 @@ button {
   align-items: center;
   margin-bottom: 30px;
 }
-
 .modal_description::before {
   content: "";
   display: block;
@@ -738,9 +700,7 @@ button {
   border-radius: 4px;
   border: none;
 }
-
-.modal_form-submit:focus,
-.modal_form-submit:hover {
+.modal_form-submit:focus, .modal_form-submit:hover {
   background-color: var(--accent-color-hover);
 }
 
@@ -783,6 +743,9 @@ button {
   bottom: -1px;
   transition: var(--transition-dur-and-fun);
 }
+.nav__link:hover, .nav__link:focus {
+  color: var(--accent-color);
+}
 
 .nav__link.nav__link--current {
   color: var(--accent-color);
@@ -800,15 +763,6 @@ button {
   background-color: var(--accent-color);
 }
 
-.nav__link:hover,
-.nav__link:focus {
-  color: var(--accent-color);
-}
-
-.nav__logo {
-  margin-right: 93px;
-}
-
 .nav__logo {
   color: var(--primery-color);
   font-family: var(--secondary-font);
@@ -817,6 +771,7 @@ button {
   line-height: 1.19;
   text-decoration: none;
   letter-spacing: 0.03;
+  margin-right: 93px;
 }
 
 .accent {
@@ -877,9 +832,7 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: var(--transition-dur-and-fun-bacol);
 }
-
-.overlay__button:hover,
-.overlay__button:focus {
+.overlay__button:hover, .overlay__button:focus {
   background-color: var(--accent-color-hover);
 }
 
@@ -1023,7 +976,6 @@ button {
 .team__personal--link:focus {
   color: var(--light-color);
   background-color: var(--accent-color);
-  border-radius: 50%;
 }
 
 .team__link-icon {

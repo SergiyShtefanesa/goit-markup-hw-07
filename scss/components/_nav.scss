@@ -39,6 +39,10 @@
 	padding-top: 32px;
 	bottom: -1px;
 	transition: var(--transition-dur-and-fun);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
 }
 
 .nav__link.nav__link--current {
@@ -57,7 +61,3 @@
 	background-color: var(--accent-color);
 }
 
-.nav__link:hover,
-.nav__link:focus {
-	color: var(--accent-color);
-}
