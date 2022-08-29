@@ -12,14 +12,13 @@
 		rel="stylesheet" />
 	<link rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-	<link rel="stylesheet" href="./css/styles.css" />
 	<link rel="stylesheet" href="./css/mine.min.css" />
 </head>
 
 <body>
 	<!--header-->
-	<header class="content">
-		<div class="nav container">
+	<header class="nav">
+		<div class="nav__content container">
 			<nav class="main__nav">
 				<a class="nav__logo" href="./index.html"><span class="accent">Web</span>Studio</a>
 				<ul class="nav__list">
@@ -376,8 +375,8 @@
 					</ul>
 				</address>
 			</div>
-			<div class="join">
-				<p class="join__text-title">присоединяйтесь</p>
+			<div class="links">
+				<p class="links__text-title">присоединяйтесь</p>
 				<ul class="links-list">
 					<li class="links-list__item">
 						<a class="links-list__link" href="#">
@@ -423,14 +422,14 @@
 	</footer>
 	<!-- modal win -->
 	<div class="backdrop is-hidden" data-modal>
-		<div class="modal">
-			<button class="close" type="button" data-modal-close>
+		<div class="modal__close">
+			<button class="button__close" type="button" data-modal-close>
 				<svg class="close__cross-icon" width="18px" height="18px">
 					<use href="./images/sprite/sprite.svg#icon-Vector"></use>
 				</svg>
 			</button>
-			<form class="form" autocomplete="off">
-				<p class="form__text">Оставьте свои данные, мы вам перезвоним</p>
+			<form class="modal__form" autocomplete="off">
+				<p class="modal__form--text">Оставьте свои данные, мы вам перезвоним</p>
 
 				<label class="modal_form-field">
 					<span class="modal_form-description">Имя</span>
@@ -469,7 +468,7 @@
 					<textarea name="user_message" class="modal_form-message" placeholder="Введите текст"></textarea>
 				</label>
 
-				<input class="modal_check-policy visually-hidden" id="user-policy" type="checkbox" name="user_policy" />
+				<input class="modal_check-policy visually--hidden" id="user-policy" type="checkbox" name="user_policy" />
 				<label class="modal_description" for="user-policy">
 					Соглашаюсь с рассылкой и принимаю&nbsp;
 					<a href="" class="modal_form-link">Условия договора</a>

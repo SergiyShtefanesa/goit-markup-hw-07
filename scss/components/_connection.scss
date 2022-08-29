@@ -1,0 +1,35 @@
+.connection {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+.connection__link {
+	display: flex;
+	align-items: center;
+	color: var(--secondary-color);
+	font-weight: var(--medium-font);
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	transition: var(--transition-dur-and-fun);
+}
+
+.connection__link:hover,
+.connection__link:focus {
+	color: var(--accent-color);
+}
+
+.contact__icon {
+	fill: currentColor;
+	margin-right: 10px;
+}
+
+.contact__icon:hover,
+.contact__icon:focus {
+	fill: currentColor;
+}
+
+.connection__item:last-child {
+	margin-left: 50px;
+}
