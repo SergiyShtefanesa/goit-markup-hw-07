@@ -1,8 +1,8 @@
-.nav {
+.header {
 	border-bottom: 1px solid #ECECEC;
 }
 
-.nav__content {
+.header__content {
 	display: flex;
 	align-items: center;
 }
@@ -13,11 +13,11 @@
 }
 
 
-.nav__list {
+.site--nav {
 	display: flex;
 }
 
-.nav__list .nav__item:not(:last-child) {
+.site--nav .site--nav__item:not(:last-child) {
 	margin-right: 50px;
 }
 
@@ -27,7 +27,7 @@
 
 
 
-.nav__link {
+.site--nav__link {
 	display: block;
 	position: relative;
 	color: var(--primery-color);
@@ -45,11 +45,11 @@
 	}
 }
 
-.nav__link.nav__link--current {
+.site--nav__link.site--nav__current {
 	color: var(--accent-color);
 }
 
-.nav__link--current::after {
+.site--nav__current::after {
 	content: '';
 	position: absolute;
 	left: 0;

@@ -1,4 +1,4 @@
-.benefits__list {
+.benefits {
 	display: flex;
 }
 
@@ -17,7 +17,7 @@
 	border-radius: 4px;
 }
 
-.benefits__achivements {
+.benefits__title {
 	margin-top: 0;
 	margin-bottom: 10px;
 	font-weight: var(--bolt-font);
@@ -27,7 +27,7 @@
 	text-transform: uppercase;
 }
 
-.benefits__description {
+.benefits__text {
 	margin-top: 0;
 	margin-bottom: 0;
 	color: var(--secondary-color);

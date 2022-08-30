@@ -1,5 +1,5 @@
 .footer__background {
-	background-color: #2F303A;
+	background-color: #2f303a;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
@@ -11,18 +11,6 @@
 
 .contacts__group {
 	flex-grow: calc(1);
-}
-
-.footer__logo {
-	display: inline-block;
-	margin-bottom: 20px;
-	color: var(--light-color);
-	font-family: var(--secondary-font);
-	font-size: 26px;
-	font-weight: 700;
-	line-height: 1.19;
-	text-decoration: none;
-	letter-spacing: 0.03;
 }
 
 .footer-form {

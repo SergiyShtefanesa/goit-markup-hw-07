@@ -1,15 +1,15 @@
-.logo {
-
-	color: var(--primery-color);
+.footer__logo {
+	display: inline-block;
+	margin-bottom: 20px;
+	color: var(--light-color);
 	font-family: var(--secondary-font);
 	font-size: 26px;
-	font-weight: var(--bolt-font);
+	font-weight: 700;
 	line-height: 1.19;
 	text-decoration: none;
 	letter-spacing: 0.03;
-	margin-right: 93px;
 }
 
-.logo__accent {
+.footer__logo--accent {
 	color: var(--accent-color);
 }
